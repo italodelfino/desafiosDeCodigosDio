@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    ---primary--font:  'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(231, 65, 93);
+    margin-left: 37%;
+    margin-top: 5%;
+    
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #e07999;
+    padding: 10px 20px 0px;      
+   
+}
+
+.menu li a {
+    text-decoration: none;
+    color:white;
+    border: 1px solid #deacd9;
+    border-radius: 10%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%; 
+    
+}
+
+.menu li {
+    list-style: none;
+   
+}
+
+.header {
+    background-image: url(./img/dogoculos.jpg);
+    background-position: center;
+    background-size: 100% 100%;   
+    background-repeat: none;
+    min-height: 200px;
+}
+
+.header2 {
+    background-image: url(./img/srd.jpg);
+    background-position: center;
+    background-size: 100% 100%;   
+    background-repeat: none;
+    min-height: 200px;
+}
+
+.header3 {
+    background-image: url(./img/pug.jpg);
+    background-position: center;
+    background-size: 100% 100%;   
+    background-repeat: none;
+    min-height: 200px;
+}
+
+.header4 {
+    background-image: url(./img/dog2.jpg);
+    background-position: center;
+    background-size: 100% 100%;   
+    background-repeat: none;
+    min-height: 200px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+
+.table .tr {
+    background: rgb(219, 26, 58);
+    color: white
+}
+
+.table2 .tr {
+    background: rgb(219, 26, 58);
+    color: white
+}
+
+.map {
+    width: 100%;
+}
+
+.inp {
+    background: rgb(235, 29, 63);
+    color: white;
+}

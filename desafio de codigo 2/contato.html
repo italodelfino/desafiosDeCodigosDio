@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header4">
+                      <h1>CLINICA PET</h1>        
+            </div>
+    
+            <div class="content">
+                <h2>Contatos</h2>
+                <p>Telefone: (85) 985817152</p>
+                <p>Telefone: (85) 994364588</p>
+                <br>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.2762853376835!2d-38.516790199999996!3d-3.7498962999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c748e7df291687%3A0x1aba9b19e820e104!2sR.%20Fiscal%20Vieira%2C%203260%20-%20Joaquim%20T%C3%A1vora%20(Fortaleza)%2C%20Fortaleza%20-%20CE%2C%2060120-170!5e0!3m2!1spt-PT!2sbr!4v1665405077547!5m2!1spt-PT!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                    
+                </div>
+                <br><br>
+                <h2>Fale Conosco</h2>  
+                <br>              
+                <form class="formulario" method="post">                                               
+                        <div class="formu">
+                            <label for="nome">Seu Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                        </div>
+                        <br>
+                        <div class="formu">
+                            <label for="telefone">Seu Telefone:</label>
+                            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+                        </div>
+                        <br>
+                        <div class="formu">
+                            <label for="email">Seu E-Mail:</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+                        </div> 
+                        <br>       
+                        <div class="formu radiobox">
+                            <span>Gostou dos Nosso Serviços</span>
+                            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+                        </div>
+                        <br>
+                        <div class="formu">
+                            <label for="mensagem">Sua mensagem:</label>
+                            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                        </div>                           
+                        <br><br>
+                        <input class="inp" type="submit" name="acao" value="Enviar">
+                        <input class="inp" type="reset"  name="acao" value="Limpar Dados">
+                    </form>
+                
+
+                
+
+              
+            </div>
+    
+            <div class="footer">
+                <ul>
+                    <a href="mailto:italo_martins@outlook.com" target="_blank" > <img src="img/email.png" alt="E-mail"> </a>                
+                   
+                    <a href="https://web.whatsapp.com/+5585985817152" target="_blank" > <img src="img/whatsapp.png" alt="whatsapp"> </a>
+                </ul>
+                <p>Todos os direitos reservados</p>	
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
